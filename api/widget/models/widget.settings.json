@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "widgets",
+  "info": {
+    "name": "widget",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "contenu": {
+      "type": "richtext"
+    }
+  }
+}
