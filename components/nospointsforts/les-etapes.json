@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_nospointsforts_les_etapes",
+  "info": {
+    "name": "les_etapes",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "etape_icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "etape_texte": {
+      "type": "string"
+    }
+  }
+}

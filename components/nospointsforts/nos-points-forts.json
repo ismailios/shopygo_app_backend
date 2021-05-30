@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_nospointsforts_nos_points_forts",
+  "info": {
+    "name": "Nos points forts",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "texte_icon": {
+      "type": "string"
+    }
+  }
+}

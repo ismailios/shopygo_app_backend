@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/page-qsn",
+      "handler": "page-qsn.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/page-qsn",
+      "handler": "page-qsn.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/page-qsn",
+      "handler": "page-qsn.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

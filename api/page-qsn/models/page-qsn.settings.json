@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_qsns",
+  "info": {
+    "name": "Page QSN",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "Nos_points_forts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nospointsforts.nos-points-forts"
+    },
+    "Image_nos_points_forts": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Les_Etapes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nospointsforts.les-etapes"
+    }
+  }
+}
