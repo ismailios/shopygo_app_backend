@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_mls",
+  "info": {
+    "name": "Page ML",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ml": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ml.ml"
+    }
+  }
+}

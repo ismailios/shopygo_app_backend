@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_faqs",
+  "info": {
+    "name": "Page Faq",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq-cmp"
+    }
+  }
+}

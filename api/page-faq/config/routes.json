@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/page-faq",
+      "handler": "page-faq.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/page-faq",
+      "handler": "page-faq.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/page-faq",
+      "handler": "page-faq.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

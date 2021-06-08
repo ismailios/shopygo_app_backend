@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_faq_faq_cmps",
+  "info": {
+    "name": "faq_cmp",
+    "icon": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "accordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq"
+    }
+  }
+}

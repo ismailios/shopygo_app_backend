@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ml_mls",
+  "info": {
+    "name": "ML",
+    "icon": "balance-scale",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ml_sub": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq"
+    }
+  }
+}
