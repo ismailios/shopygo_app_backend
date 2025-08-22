@@ -14,7 +14,7 @@
     "mysql": "^2.18.1",
     "sqlite3": "5.0.0",
     "strapi": "3.6.2",
-    "strapi-admin": "3.6.2",
+    "strapi-admin": "3.6.11",
     "strapi-connector-bookshelf": "3.6.2",
     "strapi-plugin-content-manager": "3.6.2",
     "strapi-plugin-content-type-builder": "3.6.2",
